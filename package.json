@@ -1,0 +1,29 @@
+{
+  "name": "app-habits-task-list",
+  "version": "1.0.0",
+  "description": "Aplicação web e mobile de controle de hábitos e tarefas diárias feita na semana NLW Trilha Ignite da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianegrao/app-habits-task-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianegrao/app-habits-task-list/issues"
+  },
+  "homepage": "https://github.com/marianegrao/app-habits-task-list#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
